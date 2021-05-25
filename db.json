@@ -1,26 +1,223 @@
 {
-  "weather": [
-       {
-      "City":"Toronto",
-      "State":"Ontario",
-      "TempF":"72.0",
-      "TempC":"22.2",
-      "Weather":"A Few Clouds",
-      "WindMPH":"17.3",
-      "WindDir":"West",
-      "RelativeHumidity":"57",
-      "VisibilityMiles":"10.00"
-    },
-    {
-      "City":"North York",
-      "State":"Ontario",
-      "TempF":"72.0",
-      "TempC":"22.2",
-      "Weather":"A Few Clouds",
-      "WindMPH":"17.3",
-      "WindDir":"West",
-      "RelativeHumidity":"57",
-      "VisibilityMiles":"10.00"
-      }
-  ]
+	"weather": [{
+			"city": "Toronto",
+			"state": "Ontario",
+			"currentTemp": "15 C",
+			"weather": "Cloudy",
+			"wind": "ENE 6 km/h",
+			"relativeHumidity": "43%",
+			"visibility": "15.00 km",
+			"dewPoint": "7 C",
+			"pressure": "1021 mb"
+		},
+		{
+			"city": "North York",
+			"state": "Ontario",
+			"currentTemp": "15 C",
+			"weather": "Mostly Cloudy",
+			"wind": "ESE 1 km/h",
+			"relativeHumidity": "39%",
+			"visibility": "34.00 km",
+			"dewPoint": "6 C",
+			"pressure": "0 mb"
+		},
+		{
+			"city": "Brampton",
+			"state": "Ontario",
+			"currentTemp": "16 C",
+			"weather": "Mostly Cloudy",
+			"wind": "SSE 2 km/h",
+			"relativeHumidity": "40%",
+			"visibility": "35.00 km",
+			"dewPoint": "6 C",
+			"pressure": "1021 mb"
+		},
+		{
+			"city": "Ottawa",
+			"state": "Ontario",
+			"currentTemp": "17 C",
+			"weather": "Mostly Cloudy",
+			"wind": "ENE 1 km/h",
+			"relativeHumidity": "33%",
+			"visibility": "27.00 km",
+			"dewPoint": "1 C",
+			"pressure": "1021 mb"
+		},
+		{
+			"city": "London",
+			"state": "Ontario",
+			"currentTemp": "16 C",
+			"weather": "Mostly Cloudy",
+			"wind": "SSE 2 km/h",
+			"relativeHumidity": "40%",
+			"visibility": "35.00 km",
+			"dewPoint": "6 C",
+			"pressure": "1021 mb"
+		},
+		{
+			"city": "Pickering",
+			"state": "Ontario",
+			"currentTemp": "16 C",
+			"weather": "Mostly Cloudy",
+			"wind": "SSE 2 km/h",
+			"relativeHumidity": "40%",
+			"visibility": "35.00 km",
+			"dewPoint": "6 C",
+			"pressure": "1021 mb"
+		},
+		{
+			"city": "Missisauga",
+			"state": "Ontario",
+			"currentTemp": "16 C",
+			"weather": "Mostly Cloudy",
+			"wind": "SSE 2 km/h",
+			"relativeHumidity": "40%",
+			"visibility": "35.00 km",
+			"dewPoint": "6 C",
+			"pressure": "1021 mb"
+		},
+		{
+			"city": "Banff",
+			"state": "Alberta",
+			"currentTemp": "8 C",
+			"weather": "Cloudy",
+			"wind": "ENE 4 km/h",
+			"relativeHumidity": "85%",
+			"visibility": "21.00 km",
+			"dewPoint": "6 C",
+			"pressure": "1012 mb"
+		},
+		{
+			"city": "Calgary",
+			"state": "Alberta",
+			"currentTemp": "16 C",
+			"weather": "Mostly Cloudy",
+			"wind": "SSE 2 km/h",
+			"relativeHumidity": "40%",
+			"visibility": "35.00 km",
+			"dewPoint": "6 C",
+			"pressure": "1021 mb"
+		},
+		{
+			"city": "Edmonton",
+			"state": "Alberta",
+			"currentTemp": "16 C",
+			"weather": "Mostly Cloudy",
+			"wind": "SSE 2 km/h",
+			"relativeHumidity": "40%",
+			"visibility": "35.00 km",
+			"dewPoint": "6 C",
+			"pressure": "1021 mb"
+		},
+		{
+			"city": "Vancouver",
+			"state": "British Columbia",
+			"currentTemp": "16 C",
+			"weather": "Mostly Cloudy",
+			"wind": "SSE 2 km/h",
+			"relativeHumidity": "40%",
+			"visibility": "35.00 km",
+			"dewPoint": "6 C",
+			"pressure": "1021 mb"
+		},
+		{
+			"city": "Kelowna",
+			"state": "British Columbia",
+			"currentTemp": "16 C",
+			"weather": "Mostly Cloudy",
+			"wind": "SSE 2 km/h",
+			"relativeHumidity": "40%",
+			"visibility": "35.00 km",
+			"dewPoint": "6 C",
+			"pressure": "1021 mb"
+		},
+		{
+			"city": "Princeton",
+			"state": "British Columbia",
+			"currentTemp": "16 C",
+			"weather": "Mostly Cloudy",
+			"wind": "SSE 2 km/h",
+			"relativeHumidity": "40%",
+			"visibility": "35.00 km",
+			"dewPoint": "6 C",
+			"pressure": "1021 mb"
+		},
+		{
+			"city": "Winnipeg",
+			"state": "Manitoba",
+			"currentTemp": "16 C",
+			"weather": "Mostly Cloudy",
+			"wind": "SSE 2 km/h",
+			"relativeHumidity": "40%",
+			"visibility": "35.00 km",
+			"dewPoint": "6 C",
+			"pressure": "1021 mb"
+		},
+		{
+			"city": "Brandon",
+			"state": "Manitoba",
+			"currentTemp": "16 C",
+			"weather": "Mostly Cloudy",
+			"wind": "SSE 2 km/h",
+			"relativeHumidity": "40%",
+			"visibility": "35.00 km",
+			"dewPoint": "6 C",
+			"pressure": "1021 mb"
+		},
+		{
+			"city": "Delta",
+			"state": "Manitoba",
+			"currentTemp": "16 C",
+			"weather": "Mostly Cloudy",
+			"wind": "SSE 2 km/h",
+			"relativeHumidity": "40%",
+			"visibility": "35.00 km",
+			"dewPoint": "6 C",
+			"pressure": "1021 mb"
+		},
+		{
+			"city": "Saint John",
+			"state": "New Brunswick",
+			"currentTemp": "16 C",
+			"weather": "Mostly Cloudy",
+			"wind": "SSE 2 km/h",
+			"relativeHumidity": "40%",
+			"visibility": "35.00 km",
+			"dewPoint": "6 C",
+			"pressure": "1021 mb"
+		},
+		{
+			"city": "Bathurst",
+			"state": "New Brunswick",
+			"currentTemp": "16 C",
+			"weather": "Mostly Cloudy",
+			"wind": "SSE 2 km/h",
+			"relativeHumidity": "40%",
+			"visibility": "35.00 km",
+			"dewPoint": "6 C",
+			"pressure": "1021 mb"
+		},
+		{
+			"city": "Halifax",
+			"state": "Nova Scotia",
+			"currentTemp": "16 C",
+			"weather": "Mostly Cloudy",
+			"wind": "SSE 2 km/h",
+			"relativeHumidity": "40%",
+			"visibility": "35.00 km",
+			"dewPoint": "6 C",
+			"pressure": "1021 mb"
+		},
+		{
+			"city": "Montreal",
+			"state": "Quebec",
+			"currentTemp": "16 C",
+			"weather": "Mostly Cloudy",
+			"wind": "SSE 2 km/h",
+			"relativeHumidity": "40%",
+			"visibility": "35.00 km",
+			"dewPoint": "6 C",
+			"pressure": "1021 mb"
+		}
+	]
 }
